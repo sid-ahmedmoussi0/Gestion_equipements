@@ -1,0 +1,38 @@
+.container {
+  padding: 1rem 0rem;
+}
+
+.table-responsive {
+  overflow-x: hidden;
+  margin-left: 10%;
+}
+
+.table {
+  margin: 0 auto;
+}
+
+th,td {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .table {
+    width: max-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+
+  .table {
+    width: max-content;
+  }
+}

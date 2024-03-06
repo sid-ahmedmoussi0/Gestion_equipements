@@ -1,0 +1,15 @@
+.btn-custom {
+  margin-right: 4px;
+}
+@media  (min-width: 768px){
+
+  .btn-custom {
+    display: inline;
+  }
+}
+@media (max-width: 767px) {
+  .btn-custom {
+    display: inline;
+  }
+}
+

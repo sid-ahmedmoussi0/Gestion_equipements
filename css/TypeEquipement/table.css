@@ -1,0 +1,29 @@
+.container {
+  padding: 1rem 0rem;
+}
+
+th,
+td {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+.table {
+  margin: 0 auto;
+  width: 60%;
+}
+
+@media only screen and (max-width: 900px )  {
+  .table {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .table {
+    width: auto;
+  }
+
+}

@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url(../assets/img/sobre.png);
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: translate(0, -50%);
+    color: white;
+    z-index: -1;
+}
+.dropdown-menu {
+    background-color: transparent !important;
+}
+.dropdown-item {
+    padding: 0 1rem;
+}
+.dropdown-item:hover {
+    background-color: initial !important;
+}
+.space-top{
+    margin-top: 6rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: "Open Sans";
+    color: #EEE;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.footer-nav {
+    width: 100%;
+    height: auto;
+    margin: 25px auto 0;
+}
+
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+@media (max-width: 991px) {
+    .nav-item {
+        backdrop-filter: blur(3px);
+    }
+}
+
+@media (max-width: 905px) {
+    .footer-nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:691px) {
+    .footer-nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:604px) {
+    .footer-nav ul li a {
+        font-size: 14px;
+    }
+
+    .footer-nav ul li {
+        padding: 0px;
+    }
+}
+
+@media(max-width:559px) {
+
+    .footer-nav ul li a {
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:539px) {
+    .footer-nav ul li a {
+        font-size: 11px;
+    }
+
+    .footer-nav ul li {
+        margin: 5px 20px;
+    }
+
+    .footer-nav ul li.p1 {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:380px) {
+    .footer-nav ul li {
+        display: block;
+        padding: 5px;
+    }
+
+}
+
+@media(max-width: 375px) {
+    .footer-nav ul li.p1 {
+        padding-top: 0px;
+    }
+}
